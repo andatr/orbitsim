@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2cfe302478cd64da332333f60e83cf, type: 3}
+  m_Name: SolarSystem
+  m_EditorClassIdentifier: 
+  star: {fileID: 11400000, guid: 9d7d132fc6cda264cb12928a95a0adf9, type: 2}
+  planets:
+  - {fileID: 11400000, guid: e73c76cab7c1a8e499844b5d3bae93b2, type: 2}
+  - {fileID: 11400000, guid: 941180a41a2bce643a03cf415b0691fe, type: 2}
+  - {fileID: 11400000, guid: 176b4642b3e11b1419d7b32fd9c620c9, type: 2}
+  - {fileID: 11400000, guid: 404810b6638d7544898983acbaff5e5f, type: 2}
+  scale: 30

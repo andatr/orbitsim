@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ba2180e9d92248af00ae0430cd766, type: 3}
+  m_Name: Venus
+  m_EditorClassIdentifier: 
+  name: Venus
+  prefab: {fileID: 1859503214027262, guid: 43e52f944a6d4e549a329a6d9681a73b, type: 2}
+  icon:
+    color: {r: 0.8396226, g: 0.06732824, b: 0.50308245, a: 1}
+    prefab: {fileID: 1064203930680568, guid: 20ec28643837f5344a7408c566183d88, type: 2}
+  orbit:
+    function:
+      className: Osim.VSOP87.Venus
+      procName: GetPosition
+    period: 224
+    startTime: 0
+    prefab: {fileID: 1073943420352210, guid: be97f48521473a041935ac57e387c552, type: 2}

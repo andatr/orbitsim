@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ba2180e9d92248af00ae0430cd766, type: 3}
+  m_Name: Mars
+  m_EditorClassIdentifier: 
+  name: Mars
+  prefab: {fileID: 1938755072520206, guid: f635b47fe8acb16459d74ff21f9cb5a9, type: 2}
+  icon:
+    color: {r: 0.9150943, g: 0.447844, b: 0.07338022, a: 1}
+    prefab: {fileID: 1012096910980516, guid: 81d9ee3c2f1908146a835302019ff6f4, type: 2}
+  orbit:
+    function:
+      className: Osim.VSOP87.Mars
+      procName: GetPosition
+    period: 687
+    startTime: 0
+    prefab: {fileID: 1250265067100028, guid: 5c236a1a27bf28149bc3a41a32865b84, type: 2}
